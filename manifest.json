@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Hush",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": [ "https://*.youtube.com/" ],
+      "js": [ "home.js" ],
+      "css": [ "styles.css" ]
+    },
+    {
+      "matches": [ "https://*.youtube.com/watch*" ],
+      "js": [ "video.js" ],
+      "css": [ "styles.css" ]
+    }
+  ]
+}

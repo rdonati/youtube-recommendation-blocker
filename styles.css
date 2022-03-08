@@ -1,0 +1,52 @@
+#disable-hush-text {
+  color: white;
+  font-size: 1.5rem;
+}
+
+#disable-hush-button {
+  background-color: #383838;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 3px;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+#disable-hush-button:hover {
+  background-color: #4d4d4d;
+}
+
+#disable-hush-button:active {
+  background-color: #636363;
+}
+
+#disable-hush-container {
+  margin: calc(100vh / 3) auto;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#enable-hush-button-home {
+  background-color: #383838;
+  margin: 1rem 0;
+  margin-left: 2rem;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 3px;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+#enable-hush-button {
+  background-color: #383838;
+  margin: 1rem 0;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 3px;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+}
