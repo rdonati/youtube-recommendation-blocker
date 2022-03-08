@@ -10,4 +10,11 @@ I started this project to solve **two problems**:
 
 The problem is more widespread than YouTube. Eventually, I'd like to extend the extension to include other sites, but YouTube is where I am going to start.
 
-
+## How do I run it?
+[The basics of Chrome Extensions](https://www.youtube.com/watch?v=uV4L-wcnK3Y) 
+1. Clone the repo `git clone https://github.com/rdonati/youtube-recommendation-blocker.git`
+2. Open the extension manager in Google Chrome
+3. Activate developer mode
+4. Click `Load unpacked`
+5. Select the cloned repo
+6. Enable the extension, and you should be good to go!
